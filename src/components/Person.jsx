@@ -4,7 +4,7 @@ import './Person.css'
 
 const Person = (props) => {
   const { img, name, job } = props.person
-  const url = `https://randomuser.me/api/portraits/thumb/men/${img}.jpg`
+  const url = `https://randomuser.me/api/portraits/med/men/${img}.jpg`
   return(
     <div className="person">
       <img src = {url} alt="image"/>

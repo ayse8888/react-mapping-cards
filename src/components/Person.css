@@ -17,7 +17,7 @@
 .person img{
  border-radius: 50%;
  border: 0.2rem solid #c2f8cb;
- width: 5rem;
+ /* width: 5rem; */
 }
 
 .person h3, .person p{
