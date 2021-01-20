@@ -1,0 +1,33 @@
+* {
+ margin : 0;
+ padding : 0;
+ box-sizing : border-box;
+}
+
+.person{
+ background: #8367c7;
+ width : 17rem;
+ padding : 1rem;
+ margin : 2rem auto;
+ border-radius: 0.3rem;
+ text-align: center;
+ cursor: pointer;
+}
+
+.person img{
+ border-radius: 50%;
+ border: 0.2rem solid #c2f8cb;
+ width: 5rem;
+}
+
+.person h3, .person p{
+ text-transform : capitalize;
+ margin: 0.5rem 0;
+ letter-spacing: 0.15rem;
+ color: #b3e9c7
+}
+
+.person:hover{
+ box-shadow: 2px 5px 10px rgba(131, 103, 199, 3);
+ transition : all 0.3s linear;
+}
